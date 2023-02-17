@@ -14,7 +14,7 @@ body {
 }
 .hero {
     height: 400px;
-    background: rgb(0, 0, 0) url(img/cat.jpg) center no-repeat;
+    background: rgb(0, 0, 0) url(https://codeopen27.github.io/judgingcat/img/cat.jpg) center no-repeat;
 
 }
 footer {
