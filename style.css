@@ -1,0 +1,80 @@
+body {
+    background-color: beige;
+    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    background-color: aliceblue;
+    width: 1024px;
+    margin: 0 auto;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px
+}
+.hero {
+    height: 400px;
+    background: rgb(0, 0, 0) url(img/cat.jfif) center no-repeat;
+
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 90%;
+    clear: both
+    display: block;
+}
+content {
+    overflow: hidden;
+    display: block;
+    padding: 50px;
+}
+main {
+    float: left;
+    width: 70%
+}
+aside {
+    float: right;
+}
+aside .section {
+    background-color:aquamarine;
+    padding: 30 px;
+    box-sizing: border-box;
+}
+aside .section h3 {
+    background-color: chocolate;
+    color:aqua
+    padding: 20px;
+    margin-top: 0;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color:darkgreen
+}
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+aside a {
+    padding: 10px 0;
+    display: block;
+}
+article h2 {
+    margin-bottom: 0;
+    font-size: 170%;
+    color:black
+    padding: 0;
+}
+article p {
+    margin-top: 10px;
+    font-size: 100%;
+    color:coral
+    padding: 0;
+}
+article {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
